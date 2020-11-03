@@ -1,11 +1,11 @@
 {
-    "name": "luffy/captcha",
+    "name": "jiahao/captcha",
     "description": "Captcha for Lumen，Lumen 验证码",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "luffy"
+            "name": "jiahao"
         }
     ],
     "autoload": {
