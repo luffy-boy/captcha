@@ -246,7 +246,6 @@ class Captcha
         return [
             'sensitive' => $generator['sensitive'],
             'key'       => $generator['key'],
-            'value'     => $generator['value'],
             'img'       => $this->image->encode('data-url')->encoded
         ];
     }
@@ -407,9 +406,7 @@ class Captcha
             }
         }
 
-        if(empty($this->characters)){
-            $this->characters = config('captcha.characters','2346789abcdefghjmnpqrtuxyzABCDEFGHJMNPQRTUXYZ');
-        }
+        $this->characters = config('captcha.characters','2346789abcdefghjmnpqrtuxyzABCDEFGHJMNPQRTUXYZ');
     }
 
     /**
