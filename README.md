@@ -14,7 +14,7 @@ Captcha for Laravel 5 作者很久没有更新了，同时 Captcha 在 Lumen 有
 ## 安装
 
 
-	composer require youngyezi/captcha
+	composer require jiahao/captcha
 
 ## 使用
 
