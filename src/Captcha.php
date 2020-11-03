@@ -408,9 +408,8 @@ class Captcha
         }
 
         if(empty($this->characters)){
-             $this->characters = config('captcha.characters','2346789abcdefghjmnpqrtuxyzABCDEFGHJMNPQRTUXYZ');
+            $this->characters = config('captcha.characters','2346789abcdefghjmnpqrtuxyzABCDEFGHJMNPQRTUXYZ');
         }
-       
     }
 
     /**
