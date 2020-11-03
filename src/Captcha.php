@@ -1,6 +1,6 @@
 <?php
 
-namespace Youngyezi\Captcha;
+namespace jiahao\Captcha;
 /**
  * Laravel 5 Captcha package
  *

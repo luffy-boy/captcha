@@ -1,11 +1,11 @@
 <?php
-namespace Youngyezi\Captcha;
+namespace jiahao\Captcha;
 
 
 use Illuminate\Support\ServiceProvider;
 /**
  * Class CaptchaServiceProvider
- * @package Youngyezi\Captcha
+ * @package jiahao\Captcha
  */
 class CaptchaServiceProvider extends ServiceProvider
 {

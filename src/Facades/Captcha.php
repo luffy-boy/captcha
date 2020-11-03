@@ -1,6 +1,6 @@
 <?php
 
-namespace Youngyezi\Captcha\Facades;
+namespace jiahao\Captcha\Facades;
 
 
 use Illuminate\Support\Facades\Facade;
